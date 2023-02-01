@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Task-Manager/static/css/main.bdf7c692.css",
+    "main.js": "/Task-Manager/static/js/main.d36a6b27.js",
+    "static/media/SpaceShip.png": "/Task-Manager/static/media/SpaceShip.fc0f6bfa9c0bc2b4b37c.png",
+    "static/media/TrashCan.svg": "/Task-Manager/static/media/TrashCan.d936e9329c82a7147b746cea3a996301.svg",
+    "index.html": "/Task-Manager/index.html",
+    "main.bdf7c692.css.map": "/Task-Manager/static/css/main.bdf7c692.css.map",
+    "main.d36a6b27.js.map": "/Task-Manager/static/js/main.d36a6b27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdf7c692.css",
+    "static/js/main.d36a6b27.js"
+  ]
+}
