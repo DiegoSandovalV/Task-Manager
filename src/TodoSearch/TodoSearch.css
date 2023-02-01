@@ -1,0 +1,13 @@
+.TodoSearch{
+    border-radius: 15px;
+    width: 300px;
+    height: 30px;
+    background-color: #D9D9D9;
+    border: none;
+    color: #6A6060;
+    padding-left: 10px;
+}
+
+.TodoSearch:focus{
+    outline-color: black;
+}

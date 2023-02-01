@@ -1,0 +1,15 @@
+.ContainerEmptyTodos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Spaceship{
+    width: 20rem;
+    align-self: center;
+}
+
+.emptyTodoText{
+    margin: 0;
+    margin-top: 1rem;
+} 

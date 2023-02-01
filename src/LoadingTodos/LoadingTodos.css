@@ -1,0 +1,31 @@
+.LoadingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.Circle{
+    width: 2vw;
+	height: 2vw;
+	border-radius: 100%;
+	margin: 2vw;
+	background-image: linear-gradient(145deg, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0) 100%);
+	animation: bounce 1.5s 0.5s linear infinite;
+    background-color: #f71e1e;;
+}
+
+@keyframes bounce {
+	0%, 50%, 100% {
+		transform: scale(1);
+		filter: blur(0px);
+	}
+	25% {
+		transform: scale(0.6);
+		filter: blur(1px);
+	}
+	75% {
+		filter: blur(0.8px);
+		transform: scale(1.2);
+	}
+}

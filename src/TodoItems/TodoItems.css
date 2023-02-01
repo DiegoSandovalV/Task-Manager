@@ -1,0 +1,68 @@
+
+
+.TodoItem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 24px;
+    margin-right: auto;
+}
+
+.TrashCan{
+    height: 25px;
+    filter: invert(52%) sepia(0%) saturate(2473%) hue-rotate(9deg) brightness(91%) contrast(93%);
+    cursor: pointer;
+}
+
+.TrashCan:hover{
+    filter: invert(10%) sepia(94%) saturate(7498%) hue-rotate(357deg) brightness(93%) contrast(118%);
+    transform: scale(1.1);
+}
+
+.TrashCan--Completed{
+    filter: invert(20%) sepia(0%) saturate(1096%) hue-rotate(196deg) brightness(102%) contrast(94%);
+}
+
+
+
+.CheckCircle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: auto;
+    cursor: pointer;
+    border: 1px solid #FE3838;
+}
+
+.CheckCircle:hover{
+    background-color: #FE3838;
+}
+
+.CheckCircle--Completed{
+    background-color: #FE3838;
+}
+
+.CheckMark{
+    opacity: 0;
+}
+
+.CheckMark--Completed{
+    width: 25px;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+    opacity: 1;
+}
+
+
+.Text{
+    margin-right: auto;
+}
+
+.Text--Completed{
+    text-decoration: line-through;
+    color: #555555;
+}
+
+
